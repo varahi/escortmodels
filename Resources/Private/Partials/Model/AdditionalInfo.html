@@ -1,0 +1,156 @@
+<div class="row model-detail__adinfo">
+	<div class="col-lg-3 col-md-6">
+		<table cellspacing="0" border="0" class="contenttable"> 
+			<tbody>
+			<f:if condition="{model.education}">
+				<tr> 
+					<td>{f:translate(key: 'tx_escortmodels_domain_model_model.education')}</td>
+					<td>{model.education}</td>
+				</tr>				
+			</f:if>		
+			<f:if condition="{model.background}">
+				<tr> 
+					<td>{f:translate(key: 'tx_escortmodels_domain_model_model.background')}</td>
+					<td>{model.background}</td>
+				</tr>				
+			</f:if>	
+			<f:if condition="{model.fashionDesigner}">
+				<tr> 
+					<td>{f:translate(key: 'tx_escortmodels_domain_model_model.fashion_designer')}</td>
+					<td>{model.fashionDesigner}</td>
+				</tr>				
+			</f:if>	
+			<f:if condition="{model.perfume}">
+				<tr> 
+					<td>{f:translate(key: 'tx_escortmodels_domain_model_model.perfume')}</td>
+					<td>{model.perfume}</td>
+				</tr>				
+			</f:if>									
+			</tbody>
+		</table>
+	</div>
+	
+	<div class="col-lg-3 col-md-6">
+		<table cellspacing="0" border="0" class="contenttable"> 
+			<tbody>
+			<f:if condition="{model.tatoos}">
+				<tr> 
+					<td>{f:translate(key: 'tx_escortmodels_domain_model_model.tatoos')}</td>
+					<td>{model.tatoos.title}</td>
+				</tr>				
+			</f:if>			
+			<f:if condition="{model.interests}">
+				<tr> 
+					<td>{f:translate(key: 'tx_escortmodels_domain_model_model.interests')}</td>
+					<td>{model.interests}</td>
+				</tr>				
+			</f:if>				
+			<f:if condition="{model.lingerieDesigner}">
+				<tr> 
+					<td>{f:translate(key: 'tx_escortmodels_domain_model_model.lingerie_designer')}</td>
+					<td>{model.lingerieDesigner}</td>
+				</tr>				
+			</f:if>			
+			<f:if condition="{model.flowers}">
+				<tr> 
+					<td>{f:translate(key: 'tx_escortmodels_domain_model_model.flowers')}</td>
+					<td>{model.flowers}</td>
+				</tr>				
+			</f:if>				
+			<f:if condition="{model.favoriteTravel}">
+				<tr> 
+					<td>{f:translate(key: 'tx_escortmodels_domain_model_model.favorite_travel')}</td>
+					<td>{model.favoriteTravel}</td>
+				</tr>				
+			</f:if>																						
+			</tbody>
+		</table>
+	</div>
+	
+	<div class="col-lg-3 col-md-6">
+		<table cellspacing="0" border="0" class="contenttable"> 
+			<tbody>
+			<f:if condition="{model.piercing}">
+				<tr> 
+					<td>{f:translate(key: 'tx_escortmodels_domain_model_model.piercing')}</td>
+					<td>{model.piercing.title}</td>
+				</tr>				
+			</f:if>			
+			<f:if condition="{model.sportsInterests}">
+				<tr> 
+					<td>{f:translate(key: 'tx_escortmodels_domain_model_model.sports_interests')}</td>
+					<td>{model.sportsInterests}</td>
+				</tr>				
+			</f:if>	
+			<f:if condition="{model.cuisine}">
+				<tr> 
+					<td>{f:translate(key: 'tx_escortmodels_domain_model_model.cuisine')}</td>
+					<td>{model.cuisine}</td>
+				</tr>				
+			</f:if>
+			<f:if condition="{model.jewelry}">
+				<tr> 
+					<td>{f:translate(key: 'tx_escortmodels_domain_model_model.jewelry')}</td>
+					<td>{model.jewelry}</td>
+				</tr>				
+			</f:if>	
+			
+			<f:if condition="{model.gifts}">
+				<tr> 
+					<td>{f:translate(key: 'tx_escortmodels_domain_model_model.gifts')}</td>
+					<td>{model.gifts}</td>
+				</tr>				
+			</f:if>	
+			
+			<f:if condition="{model.dreamTravel}">
+				<tr> 
+					<td>{f:translate(key: 'tx_escortmodels_domain_model_model.dream_travel')}</td>
+					<td>{model.dreamTravel}</td>
+				</tr>				
+			</f:if>													
+		</tbody>
+		</table>	
+	</div>
+	
+	<div class="col-lg-3 col-md-6">
+		<table cellspacing="0" border="0" class="contenttable"> 
+			<tbody>
+			<f:if condition="{model.language}">
+				<tr> 
+					<td>{f:translate(key: 'tx_escortmodels_domain_model_model.language')}</td>
+					<td>		
+						<f:for each="{model.language}" as="language" key="number" iteration="itemIteration">
+							<f:if condition="{itemIteration.isLast}">
+  							<f:then>
+									{language.title}
+  							</f:then>
+  							<f:else>
+  								{language.title}, 
+  							</f:else>
+							</f:if>					
+						</f:for>										
+					</td>
+				</tr>				
+			</f:if>	
+			<f:if condition="{model.clothingStyle}">
+				<tr> 
+					<td>{f:translate(key: 'tx_escortmodels_domain_model_model.clothing_style')}</td>
+					<td>{model.clothingStyle}</td>
+				</tr>				
+			</f:if>	
+			<f:if condition="{model.drinks}">
+				<tr> 
+					<td>{f:translate(key: 'tx_escortmodels_domain_model_model.drinks')}</td>
+					<td>{model.drinks}</td>
+				</tr>				
+			</f:if>	
+			<f:if condition="{model.smoking}">
+				<tr> 
+					<td>{f:translate(key: 'tx_escortmodels_domain_model_model.smoking')}</td>
+					<td>{model.smoking.title}</td>
+				</tr>				
+			</f:if>										
+			</tbody>
+		</table>		
+	</div>				
+</div>

@@ -1,0 +1,51 @@
+	<f:security.ifAuthenticated>
+		<f:then>
+			<div class="model-detail__img-wrap row csc-textpic-imagewrap">
+				<f:for each="{model.image}" as="image" key="number" iteration="itemIteration">
+				
+							<div class="col-md-6 bw">				
+            		<a class="magnificpopup gallery-main-image zoom" title="{item.title}" 
+            			href="{f:uri.image(src:'{image.originalResource.publicUrl}' treatIdAsReference:1 maxWidth:'1000')}">					
+									<f:image src="{image.originalResource.publicUrl}" class="model" width="485c" height="633c" alt="{model.title}" />        
+  							</a>
+  						</div>
+  						
+  			</f:for>  
+			</div>
+ 		</f:then>
+ 		<f:else>
+			<div class="model-detail__img-wrap row">
+				<f:for each="{model.image}" as="image" key="number" iteration="itemIteration">
+
+							<div class="col-md-6 bw">
+								<f:if condition="{image.dontshowlogo} == 1">
+									<f:then>
+										
+									</f:then>
+									<f:else>
+								
+								<div class="model-detail__logo">
+									<f:if condition="{image.logomargin}">
+										<f:then>
+											<f:image src="typo3conf/ext/escort_site/Resources/Public/Images/logo-on-model.png" 
+												width="490" height="72" alt="{model.title}" style="margin-top: {image.logomargin}%;" />										
+										</f:then>
+										<f:else>
+											<f:image src="typo3conf/ext/escort_site/Resources/Public/Images/logo-on-model.png" 
+												width="490" height="72" alt="{model.title}" />												
+										</f:else>
+									</f:if>
+								</div>
+																	
+									</f:else>
+								</f:if>
+							
+
+								<f:image src="{image.originalResource.publicUrl}" class="model" width="485c" height="633c" />        
+  						</div>
+
+  			</f:for>  
+			</div>
+ 		</f:else>
+ </f:security.ifAuthenticated>
+

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-03-03T16:04:14Z">
+		<header>
+			<generator>LFEditor</generator>
+		</header>
+		<body>
+		<trans-unit id="flexform_general.additional">
+			<source>Additional</source>
+		</trans-unit>
+		<trans-unit id="flexform_general.additional_info">
+			<source>Additional Info</source>
+		</trans-unit>
+		<trans-unit id="flexform_general.categories">
+			<source>Categories</source>
+		</trans-unit>
+		<trans-unit id="flexform_general.detail_page">
+			<source>Detail Page</source>
+		</trans-unit>
+		<trans-unit id="flexform_general.images">
+			<source>Images</source>
+		</trans-unit>
+		<trans-unit id="flexform_general.info">
+			<source>Information</source>
+		</trans-unit>
+		<trans-unit id="flexform_general.list_page">
+			<source>List Page</source>
+		</trans-unit>
+		<trans-unit id="flexform_general.model_detail">
+			<source>Model Detail</source>
+		</trans-unit>
+		<trans-unit id="flexform_general.model_folder">
+			<source>Model Folder</source>
+		</trans-unit>
+		<trans-unit id="flexform_general.model_list">
+			<source>Models List</source>
+		</trans-unit>
+		<trans-unit id="flexform_general.settings">
+			<source>Settings</source>
+		</trans-unit>
+		<trans-unit id="flexform_general.show_all">
+			<source>Show All</source>
+		</trans-unit>		
+		<trans-unit id="flexform_general.travel_list">
+			<source>Travel Filter</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model.category_additional">
+			<source>Additional</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model.category_link">
+			<source>Link for category page</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_age">
+			<source>Age</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_age.title">
+			<source>Title</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_brasize">
+			<source>Bra Size</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_brasize.title">
+			<source>Title</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_col">
+			<source>Col</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_col.bodytext">
+			<source>Bodytext</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_col.title">
+			<source>Title</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_eyecolor">
+			<source>Eye Color</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_eyecolor.title">
+			<source>Title</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_haircolor">
+			<source>Hair Color</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_haircolor.title">
+			<source>Title</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_language">
+			<source>Language</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_language.title">
+			<source>Title</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_measurements">
+			<source>Measurements</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_measurements.title">
+			<source>Title</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model">
+			<source>Model</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.age">
+			<source>Age</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.background">
+			<source>Background</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.bottom_image">
+			<source>Bottom Image</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.bra_size">
+			<source>Bra Size</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.clothing_style">
+			<source>Clothing Style</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.col">
+			<source>Col</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.cuisine">
+			<source>Cuisine</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.description">
+			<source>Description</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.description2">
+			<source>Description2</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.dream_travel">
+			<source>Dream Travel</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.drinks">
+			<source>Drinks</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.education">
+			<source>Education</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.eye_color">
+			<source>Eye Color</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.fashion_designer">
+			<source>Fashion Designer</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.favorite_travel">
+			<source>Favorite Travel</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.flowers">
+			<source>Flowers</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.gifts">
+			<source>Gifts</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.hair_color">
+			<source>Hair Color</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.height">
+			<source>Height</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.hide_no_auth">
+			<source>Hide model for non authorized users</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.image">
+			<source>Images</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.image_caption">
+			<source>Top Image Caption</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.image_dont_show_logo">
+			<source>Don't show logo</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.image_show_in_preview">
+			<source>Show in preview</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.interests">
+			<source>Interests</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.jewelry">
+			<source>Jewelry</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.language">
+			<source>Language</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.last_name">
+			<source>Last Name</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.lingerie_designer">
+			<source>Lingerie Designer</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.list_image">
+			<source>Image in list view</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.vip_image">
+			<source>Image in list view for VIP users</source>
+		</trans-unit>		
+		<trans-unit id="tx_escortmodels_domain_model_model.logo_margin">
+			<source>Margin top image model logo (%). Value from -20 to 95. Default value is 15%.</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.measurements">
+			<source>Measurements</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.name">
+			<source>Name</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.nationality">
+			<source>Nationality</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.perfume">
+			<source>Perfume</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.piercing">
+			<source>Piercing</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.rate">
+			<source>Rate</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.residence">
+			<source>Residence</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.shoe_size">
+			<source>Shoe Size</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.size">
+			<source>Size</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.smoking">
+			<source>Smoking</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.sports_interests">
+			<source>Sports Interests</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.subtitle">
+			<source>Subtitle</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.tatoos">
+			<source>Tatoos</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.teaser">
+			<source>Teaser</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.title">
+			<source>Title</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.top_image">
+			<source>Top Image</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.travel">
+			<source>Travel</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.weight">
+			<source>Weight</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_nationality">
+			<source>Nationality</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_nationality.title">
+			<source>Title</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_rate">
+			<source>Rate</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_rate.col">
+			<source>Columns</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_rate.rate_image">
+			<source>Rate Image</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_rate.title">
+			<source>Title</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_residence">
+			<source>Residence</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_residence.title">
+			<source>Title</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_shoesize">
+			<source>Shoe Size</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_shoesize.title">
+			<source>Title</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_size">
+			<source>Size</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_size.title">
+			<source>Title</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_travel">
+			<source>Travel</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_travel.show_in_list">
+			<source>Show in travel model filter</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_travel.title">
+			<source>Title</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_value">
+			<source>Value</source>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_value.title">
+			<source>Title</source>
+		</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,26 @@
+<div class="row model-detail__rate">
+	<f:if condition="{model.rate}">
+		<f:if condition="{model.rate.uid} == 10">
+			<f:then>
+			
+			</f:then>
+			<f:else>	
+				<div class="model-detail__rate-icon">
+					<figure> 
+						<f:image src="{model.rate.rateImage.originalResource.publicUrl}" width="116" height="116" alt="{model.rate.title}" />
+						<figcaption> {model.rate.title} </figcaption>
+					</figure>		
+				</div>					
+			</f:else>
+		</f:if>
+	</f:if>
+</div>
+
+<div class="row">		
+	<f:for each="{model.rate.col}" as="col" key="number" iteration="itemIteration">
+		<div class="col-lg-4">
+			<f:format.html>{col.bodytext}</f:format.html>
+		</div>
+	</f:for>
+</div>		
+	

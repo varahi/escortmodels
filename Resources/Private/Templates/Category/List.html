@@ -1,0 +1,19 @@
+<f:layout name="Default" />
+<f:section name="main">
+<div id="filter">
+	<div class="filter-flex">
+	<f:for each="{categories}" as="category">
+		<f:if condition="{category.link}">
+			<f:then>
+				<f:link.page pageUid="{category.link}">{category.title}</f:link.page>
+			</f:then>
+			<f:else>
+				<a rel="xtr{category.uid}">{category.title}</a>	
+			</f:else>
+		</f:if>
+	</f:for>
+	<a rel="all" id="all">{f:translate(key: 'all')}</a>
+	</div>
+</div>
+
+</f:section>

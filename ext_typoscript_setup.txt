@@ -1,0 +1,15 @@
+
+config.tx_extbase{
+    persistence{
+        classes{
+
+            T3Dev\Escortmodels\Domain\Model\Category {
+                mapping {
+                    tableName = sys_category
+                    recordType = Tx_Escortmodels_Category
+                }
+            }
+            
+    	}
+    }
+}

@@ -1,0 +1,79 @@
+{namespace esc=T3Dev\Escortmodels\ViewHelpers}
+
+<f:layout name="Default" />
+<f:section name="main">
+
+<esc:titleTag>
+  <f:format.htmlentitiesDecode>{model.name} {model.lastName}</f:format.htmlentitiesDecode>
+</esc:titleTag>
+
+	<f:render partial="Model/TopImage" arguments="{_all}" />
+	
+	<div class="main text-area model-detail">
+		<div class="container animate">
+			<f:if condition="{model.name}">
+				<h1>{model.name} {model.lastName}</h1>
+			</f:if>
+			<f:if condition="{model.subtitle}">
+				<h3>{model.subtitle}</h3>
+			</f:if>
+		</div>
+		<div class="pattern"><span></span></div>
+		<div class="container animate">
+			<f:if condition="{model.description}">
+				<div class="align-center">
+					<f:format.html>{model.description}</f:format.html>
+				</div>
+			</f:if>
+			<f:render partial="Model/Image" arguments="{_all}" />
+		</div>
+		<div class="pattern"><span></span></div>
+		<div class="container animate">
+			<f:if condition="{model.name}">
+			<!-- <h2>{model.name}'s {model.lastName} {f:translate(key: 'details')}</h2> -->
+			</f:if>
+			<f:if condition="{model.travel}">
+				<!-- <h3>
+				<f:for each="{model.travel}" as="travel" key="number" iteration="itemIteration">								
+					<f:if condition="{itemIteration.isLast}">
+  					<f:then>
+							{travel.title}
+  					</f:then>
+  					<f:else>
+							{travel.title} /
+  					</f:else>
+					</f:if>									
+				</f:for>
+			</h3> -->
+			</f:if>
+			<f:render partial="Model/Info" arguments="{_all}" />	
+			</div>
+				
+			<div class="pattern"><span></span></div>
+			
+			<div class="container animate">
+				<!-- <h2>{f:translate(key: 'more')} {model.name}'s {f:translate(key: 'details')}</h2>	-->		
+				<h2>{f:translate(key: 'more')} {f:translate(key: 'details')}</h2>
+				<f:render partial="Model/AdditionalInfo" arguments="{_all}" />
+			</div>
+			
+			<div class="pattern"><span></span></div>
+			
+			<div class="container animate">
+				<!--  <h2>{model.name}'s {model.lastName} {f:translate(key: 'rate')}</h2> -->
+				<h2>{f:translate(key: 'rate')}</h2>
+				<f:render partial="Model/Rate" arguments="{_all}" />
+					<f:if condition="{model.description2}">
+						<div class="align-center">
+							<f:format.html>{model.description2}</f:format.html>
+						</div>	
+					</f:if>
+			</div>
+			
+			<div class="pattern"><span></span></div>
+			<f:render partial="Model/BottomImage" arguments="{_all}" />
+		
+	</div>
+
+
+</f:section>

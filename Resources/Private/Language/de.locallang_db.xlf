@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2017-03-03T16:04:14Z">
+		<header>
+			<generator>LFEditor</generator>
+		</header>
+		<body>
+		<trans-unit id="tx_escortmodels_domain_model_model.logo_margin" approved="yes">
+			<source>Margin top image model logo (%). Value from -20 to 95. Default value is 15%.</source>
+			<target>Margin top image model logo (%). Value from -20 to 95. Default value is 15%.</target>
+		</trans-unit>
+		</body>
+	</file>
+</xliff>

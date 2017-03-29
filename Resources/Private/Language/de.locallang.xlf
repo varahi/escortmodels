@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2017-03-25T11:10:21Z">
+		<header>
+			<generator>LFEditor</generator>
+		</header>
+		<body>
+		<trans-unit id="all" approved="yes">
+			<source>All</source>
+			<target>All</target>
+		</trans-unit>
+		<trans-unit id="book" approved="yes">
+			<source>Book</source>
+			<target>Book</target>
+		</trans-unit>
+		<trans-unit id="booking_caption1" approved="yes">
+			<source>Booking our Elite Model</source>
+			<target>Buchen Sie unser Elite-Model</target>
+		</trans-unit>
+		<trans-unit id="booking_caption2" approved="yes">
+			<source>right now!</source>
+			<target>jetzt!</target>
+		</trans-unit>
+		<trans-unit id="booking_title" approved="yes">
+			<source>Booking &amp; Reservation</source>
+			<target>Buchung &amp; Reservierung</target>
+		</trans-unit>
+		<trans-unit id="c" approved="yes">
+			<source>C</source>
+			<target>C</target>
+		</trans-unit>
+		<trans-unit id="cm" approved="yes">
+			<source>cm</source>
+			<target>cm</target>
+		</trans-unit>
+		<trans-unit id="details" approved="yes">
+			<source>Details</source>
+			<target>Details</target>
+		</trans-unit>
+		<trans-unit id="kg" approved="yes">
+			<source>kg</source>
+			<target>kg</target>
+		</trans-unit>
+		<trans-unit id="more" approved="yes">
+			<source>More</source>
+			<target>More</target>
+		</trans-unit>
+		<trans-unit id="rate" approved="yes">
+			<source>Donation</source>
+			<target>Honorar</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_age" approved="yes">
+			<source>Age</source>
+			<target>Alter</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_brasize" approved="yes">
+			<source>Bra Size</source>
+			<target>Körpchengröße</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_eyecolor" approved="yes">
+			<source>Eye Color</source>
+			<target>Augenfarbe</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_haircolor" approved="yes">
+			<source>Hair Color</source>
+			<target>Haarfarbe</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_language" approved="yes">
+			<source>Language</source>
+			<target>Sprachen</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_measurements" approved="yes">
+			<source>Measurements</source>
+			<target>Abmessungen</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model" approved="yes">
+			<source>Model</source>
+			<target>Modell</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.age" approved="yes">
+			<source>Age</source>
+			<target>Alter</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.background" approved="yes">
+			<source>Background</source>
+			<target>Background</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.bra_size" approved="yes">
+			<source>Bra Size</source>
+			<target>BH</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.clothing_style" approved="yes">
+			<source>Clothing Style</source>
+			<target>Kleidungsstil</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.cuisine" approved="yes">
+			<source>Cuisine</source>
+			<target>Küche</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.dream_travel" approved="yes">
+			<source>Dream Travel</source>
+			<target>Wunschreiseziele</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.drinks" approved="yes">
+			<source>Drinks</source>
+			<target>Drinks</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.education" approved="yes">
+			<source>Education</source>
+			<target>Ausbildung</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.eye_color" approved="yes">
+			<source>Eye Color</source>
+			<target>Augenfarbe</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.fashion_designer" approved="yes">
+			<source>Fashion Designer</source>
+			<target>Fashion Designer</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.favorite_travel" approved="yes">
+			<source>Favorite Travel</source>
+			<target>Lieblingsreiseziele</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.flowers" approved="yes">
+			<source>Flowers</source>
+			<target>Blumen</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.gifts" approved="yes">
+			<source>Gifts</source>
+			<target>Geschenke</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.hair_color" approved="yes">
+			<source>Hair Color</source>
+			<target>Haar</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.height" approved="yes">
+			<source>Height</source>
+			<target>Körpergrösse</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.image" approved="yes">
+			<source>Image</source>
+			<target>Bild</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.interests" approved="yes">
+			<source>Interests</source>
+			<target>Interessen</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.jewelry" approved="yes">
+			<source>Jewelry</source>
+			<target>Schmuck</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.language" approved="yes">
+			<source>Language</source>
+			<target>Sprachen</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.lingerie_designer" approved="yes">
+			<source>Lingerie Designer</source>
+			<target>Lingerie Designer</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.measurements" approved="yes">
+			<source>Measurements</source>
+			<target>Masse</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.nationality" approved="yes">
+			<source>Nationality</source>
+			<target>Nationalität</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.perfume" approved="yes">
+			<source>Perfume</source>
+			<target>Parfüm</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.piercing" approved="yes">
+			<source>Piercing</source>
+			<target>Piercings</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.rate" approved="yes">
+			<source>Rate</source>
+			<target>Preis</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.residence" approved="yes">
+			<source>Residence</source>
+			<target>Residenz</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.shoe_size" approved="yes">
+			<source>Shoe Size</source>
+			<target>Schuhgrösse</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.size" approved="yes">
+			<source>Size</source>
+			<target>Konfektion</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.smoking" approved="yes">
+			<source>Smoking</source>
+			<target>Rauchen</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.sports_interests" approved="yes">
+			<source>Sports Interests</source>
+			<target>Sport</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.tatoos" approved="yes">
+			<source>Tattoos</source>
+			<target>Tattoos</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.travel" approved="yes">
+			<source>Travel</source>
+			<target>Reisebereitschaft</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_model.weight" approved="yes">
+			<source>Weight</source>
+			<target>Gewicht</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_nationality" approved="yes">
+			<source>Nationality</source>
+			<target>Nationalität</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_residence" approved="yes">
+			<source>Residence</source>
+			<target>Wohnort</target>
+		</trans-unit>
+		<trans-unit id="tx_escortmodels_domain_model_travel" approved="yes">
+			<source>Travel</source>
+			<target>Reisebereitschaft</target>
+		</trans-unit>
+		</body>
+	</file>
+</xliff>

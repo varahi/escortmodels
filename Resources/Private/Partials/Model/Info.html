@@ -1,0 +1,151 @@
+<!-- First row start -->
+<div class="row model-detail__info">
+	<f:if condition="{model.residence}">
+		<div class="col-lg-3 col-md-6 model-detail__info-block">
+			<div class="model-detail__info-title">
+				{f:translate(key: 'tx_escortmodels_domain_model_model.residence')}
+			</div>
+			<div class="model-detail__info-value">
+				{model.residence.title}
+			</div>
+		</div>
+	</f:if>
+	
+	<f:if condition="{model.nationality}">
+		<div class="col-lg-3 col-md-6 model-detail__info-block">
+			<div class="model-detail__info-title">
+				{f:translate(key: 'tx_escortmodels_domain_model_model.nationality')}
+			</div>
+			<div class="model-detail__info-value">
+				{model.nationality.title}
+			</div>
+		</div>
+	</f:if>
+	
+	<f:if condition="{model.travel}">
+		<div class="col-lg-3 col-md-6 model-detail__info-block">
+			<div class="model-detail__info-title">
+				{f:translate(key: 'tx_escortmodels_domain_model_model.travel')}
+			</div>
+			<div class="model-detail__info-value">
+				<f:for each="{model.travel}" as="travel" key="number" iteration="itemIteration">
+					<f:if condition="{itemIteration.isFirst}">
+  					<f:then>
+							{travel.title}
+  					</f:then>
+  					<f:else>
+  					</f:else>
+					</f:if>					
+				</f:for>	
+			</div>
+		</div>
+	</f:if>
+	
+	<f:if condition="{model.age}">
+		<div class="col-lg-3 col-md-6 model-detail__info-block">
+			<div class="model-detail__info-title">
+				{f:translate(key: 'tx_escortmodels_domain_model_model.age')}
+			</div>
+			<div class="model-detail__info-value">
+				{model.age.title}
+			</div>
+		</div>
+	</f:if>					
+</div>
+<!-- First row end -->
+
+<!-- Second row start -->
+<div class="row model-detail__info">
+	<f:if condition="{model.height}">
+		<div class="col-lg-3 col-md-6 model-detail__info-block">
+			<div class="model-detail__info-title">
+				{f:translate(key: 'tx_escortmodels_domain_model_model.height')}
+			</div>
+			<div class="model-detail__info-value">
+				{model.height} {f:translate(key: 'cm')}
+			</div>
+		</div>
+	</f:if>
+	
+	<f:if condition="{model.weight}">
+		<div class="col-lg-3 col-md-6 model-detail__info-block">
+			<div class="model-detail__info-title">
+				{f:translate(key: 'tx_escortmodels_domain_model_model.weight')}
+			</div>
+			<div class="model-detail__info-value">
+				{model.weight} {f:translate(key: 'kg')}
+			</div>
+		</div>
+	</f:if>	
+	
+	<f:if condition="{model.measurements}">
+		<div class="col-lg-3 col-md-6 model-detail__info-block">
+			<div class="model-detail__info-title">
+				{f:translate(key: 'tx_escortmodels_domain_model_model.measurements')}
+			</div>
+			<div class="model-detail__info-value">
+				{model.measurements}
+			</div>
+		</div>
+	</f:if>	
+	
+	<f:if condition="{model.size}">
+		<div class="col-lg-3 col-md-6 model-detail__info-block">
+			<div class="model-detail__info-title">
+				{f:translate(key: 'tx_escortmodels_domain_model_model.size')}
+			</div>
+			<div class="model-detail__info-value">
+				{model.size.title}
+			</div>
+		</div>
+	</f:if>	
+</div>	
+<!-- Second row end -->
+
+<!-- Third row start -->
+<div class="row model-detail__info">
+	<f:if condition="{model.braSize}">
+		<div class="col-lg-3 col-md-6 model-detail__info-block">
+			<div class="model-detail__info-title">
+				{f:translate(key: 'tx_escortmodels_domain_model_model.bra_size')}
+			</div>
+			<div class="model-detail__info-value">
+				{model.braSize}
+			</div>
+		</div>
+	</f:if>
+	
+	<f:if condition="{model.eyeColor}">
+		<div class="col-lg-3 col-md-6 model-detail__info-block">
+			<div class="model-detail__info-title">
+				{f:translate(key: 'tx_escortmodels_domain_model_model.eye_color')}
+			</div>
+			<div class="model-detail__info-value">
+				{model.eyeColor.title}
+			</div>
+		</div>
+	</f:if>
+	
+	<f:if condition="{model.shoeSize}">
+		<div class="col-lg-3 col-md-6 model-detail__info-block">
+			<div class="model-detail__info-title">
+				{f:translate(key: 'tx_escortmodels_domain_model_model.shoe_size')}
+			</div>
+			<div class="model-detail__info-value">
+				{model.shoeSize.title}
+			</div>
+		</div>
+	</f:if>
+	
+	<f:if condition="{model.hairColor}">
+		<div class="col-lg-3 col-md-6 model-detail__info-block">
+			<div class="model-detail__info-title">
+				{f:translate(key: 'tx_escortmodels_domain_model_model.hair_color')}
+			</div>
+			<div class="model-detail__info-value">
+				{model.hairColor.title}
+			</div>
+		</div>
+	</f:if>		
+</div>	
+<!-- Third row end -->

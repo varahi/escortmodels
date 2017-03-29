@@ -1,0 +1,37 @@
+<f:security.ifAuthenticated>
+	<f:then>
+		<f:if condition="{model.vipImage}">
+			<f:then>
+				<div class="view-profile">
+					<f:image src="typo3conf/ext/escort_site/Resources/Public/Images/view-profile.png" 
+						width="167" height="91" alt="{f:translate(key: 'view_profile')}" />					
+				</div>	
+					<f:image src="{model.vipImage.originalResource.publicUrl}" class=" model-list-img" 
+					width="520c" height="700c" alt="{model.name} {model.lastName}" treatIdAsReference="1" />						
+			</f:then>	
+			<f:else>
+					<div class="view-profile">
+						<f:image src="typo3conf/ext/escort_site/Resources/Public/Images/view-profile.png" 
+							width="167" height="91" alt="{f:translate(key: 'view_profile')}" />					
+					</div>
+					<f:image src="{model.listImage.originalResource.publicUrl}" class=" model-list-img" 
+					width="520c" height="700c" alt="{model.name} {model.lastName}" treatIdAsReference="1" /> 			
+			</f:else>	
+		</f:if>		
+	</f:then>
+	<f:else>
+			<f:if condition="{model.listImage}">
+				<f:then>
+					<div class="view-profile">
+						<f:image src="typo3conf/ext/escort_site/Resources/Public/Images/view-profile.png" 
+							width="167" height="91" alt="{f:translate(key: 'view_profile')}" />					
+					</div>
+					<f:image src="{model.listImage.originalResource.publicUrl}" class=" model-list-img" 
+					width="520c" height="700c" alt="{model.name} {model.lastName}" treatIdAsReference="1" /> 
+				</f:then>
+				<f:else>
+				</f:else>
+			</f:if>					
+	</f:else>
+</f:security.ifAuthenticated>
+			

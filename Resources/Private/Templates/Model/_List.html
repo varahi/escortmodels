@@ -1,0 +1,75 @@
+
+<f:layout name="Default" />
+<f:section name="main">
+
+<!-- <table  class="tx_escortmodels" >
+	<tr>
+		<th><f:translate key="tx_escortmodels_domain_model_model.title" /></th>
+		<th><f:translate key="tx_escortmodels_domain_model_model.subtitle" /></th>
+		<th><f:translate key="tx_escortmodels_domain_model_model.teaser" /></th>
+		<th><f:translate key="tx_escortmodels_domain_model_model.description" /></th>
+		<th><f:translate key="tx_escortmodels_domain_model_model.description2" /></th>
+		<th><f:translate key="tx_escortmodels_domain_model_model.image" /></th>
+		<th><f:translate key="tx_escortmodels_domain_model_model.top_image" /></th>
+		<th><f:translate key="tx_escortmodels_domain_model_model.image_caption" /></th>
+		<th><f:translate key="tx_escortmodels_domain_model_model.bottom_image" /></th>
+		<th><f:translate key="tx_escortmodels_domain_model_model.education" /></th>
+		<th><f:translate key="tx_escortmodels_domain_model_model.background" /></th>
+		<th><f:translate key="tx_escortmodels_domain_model_model.fashion_designer" /></th>
+		<th><f:translate key="tx_escortmodels_domain_model_model.perfume" /></th>
+		<th><f:translate key="tx_escortmodels_domain_model_model.interests" /></th>
+		<th><f:translate key="tx_escortmodels_domain_model_model.lingerie_designer" /></th>
+		<th><f:translate key="tx_escortmodels_domain_model_model.flowers" /></th>
+		<th><f:translate key="tx_escortmodels_domain_model_model.favorite_travel" /></th>
+		<th><f:translate key="tx_escortmodels_domain_model_model.sports_interests" /></th>
+		<th><f:translate key="tx_escortmodels_domain_model_model.cuisine" /></th>
+		<th><f:translate key="tx_escortmodels_domain_model_model.jewelry" /></th>
+		<th><f:translate key="tx_escortmodels_domain_model_model.dream_travel" /></th>
+		<th><f:translate key="tx_escortmodels_domain_model_model.clothing_style" /></th>
+		<th><f:translate key="tx_escortmodels_domain_model_model.drinks" /></th>
+		<th><f:translate key="tx_escortmodels_domain_model_model.height" /></th>
+		<th><f:translate key="tx_escortmodels_domain_model_model.weight" /></th>
+		<th> </th>
+		<th> </th>
+	</tr>
+
+	<f:for each="{models}" as="model">
+		<tr>
+			<td><f:link.action action="show" arguments="{model : model}"> {model.title}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{model : model}"> {model.subtitle}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{model : model}"> {model.teaser}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{model : model}"> {model.description}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{model : model}"> {model.description2}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{model : model}"> {model.image.originalResource.name}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{model : model}"> {model.topImage.originalResource.name}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{model : model}"> {model.imageCaption}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{model : model}"> {model.bottomImage.originalResource.name}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{model : model}"> {model.education}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{model : model}"> {model.background}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{model : model}"> {model.fashionDesigner}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{model : model}"> {model.perfume}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{model : model}"> {model.interests}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{model : model}"> {model.lingerieDesigner}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{model : model}"> {model.flowers}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{model : model}"> {model.favoriteTravel}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{model : model}"> {model.sportsInterests}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{model : model}"> {model.cuisine}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{model : model}"> {model.jewelry}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{model : model}"> {model.dreamTravel}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{model : model}"> {model.clothingStyle}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{model : model}"> {model.drinks}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{model : model}"> {model.height}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{model : model}"> {model.weight}</f:link.action></td>
+			<td><f:link.action action="edit" arguments="{model : model}">Edit</f:link.action></td>
+			<td><f:link.action action="delete" arguments="{model : model}">Delete</f:link.action></td>
+		</tr>
+	</f:for>
+</table> -->
+
+<f:for each="{models}" as="model">
+	<f:link.page additionalParams="{tx_escortmodels_escortmodels: '{model: model}'}" pageUid="{settings.detailPageUid}">
+		{model.title}
+	</f:link.page>
+</f:for>
+
+</f:section>

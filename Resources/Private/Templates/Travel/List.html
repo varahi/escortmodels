@@ -1,0 +1,26 @@
+<f:layout name="Default" />
+<f:section name="main">
+
+<div id="filter">
+	<div class="filter-flex">
+	<f:for each="{travels}" as="travel">
+		<a rel="xtr{travel.uid}">{travel.title}</a>
+	</f:for>
+	<a rel="all" id="all">{f:translate(key: 'all')}</a>
+	</div>
+</div>
+
+<script>
+    var chosen = "";
+    jQuery("#filter a").on("click", function (event) {
+        jQuery("#filter a").removeClass("current");
+        jQuery(this).addClass("current");
+        chosen = jQuery(this).attr("rel");
+        jQuery(".model-list__item").not("." + chosen).hide('slow');
+        jQuery("." + chosen).show('slow');
+
+    });
+	var $items = jQuery('.model-list__item');
+</script>
+
+</f:section>

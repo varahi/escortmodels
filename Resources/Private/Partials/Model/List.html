@@ -1,0 +1,33 @@
+<div class="col-md-6 col-lg-6 col-xl-3 col-sm-12 model-list__item bw 
+<f:for each="{model.categories}" as="travel" key="number" iteration="itemIteration">
+	xtr{travel.uid}
+</f:for>
+ all">
+
+	<div class="model-list__inner" itemscope="itemscope" itemtype="http://schema.org/Article">
+	<f:link.page additionalParams="{tx_escortmodels_escortmodels: '{model: model}'}" pageUid="{settings.detailPageUid}">
+			<f:render partial="Model/ListImage" arguments="{_all}" />					
+			<div class="model-list__caption">
+				<div class="model-list__caption_title">
+					{model.name}
+				</div>
+				<div class="model-list__caption_travel">
+				
+					<f:if condition="{model.travel}">
+						<f:for each="{model.travel}" as="travel" key="number" iteration="itemIteration">								
+							<f:if condition="{itemIteration.isLast}">
+  							<f:then>
+									{travel.title}
+  							</f:then>
+  							<f:else>
+									{travel.title} /
+  							</f:else>
+							</f:if>									
+						</f:for>
+					</f:if>				
+				
+				</div>
+			</div>
+	</f:link.page>
+	</div>
+</div>

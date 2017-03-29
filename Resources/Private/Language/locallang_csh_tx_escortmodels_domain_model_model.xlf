@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-01-28T01:59:35Z" product-name="escortmodels">
+		<header/>
+		<body>
+			<trans-unit id="title.description">
+				<source>title</source>
+			</trans-unit>
+			<trans-unit id="subtitle.description">
+				<source>subtitle</source>
+			</trans-unit>
+			<trans-unit id="teaser.description">
+				<source>teaser</source>
+			</trans-unit>
+			<trans-unit id="description.description">
+				<source>description</source>
+			</trans-unit>
+			<trans-unit id="description2.description">
+				<source>description2</source>
+			</trans-unit>
+			<trans-unit id="image.description">
+				<source>image</source>
+			</trans-unit>
+			<trans-unit id="top_image.description">
+				<source>topImage</source>
+			</trans-unit>
+			<trans-unit id="image_caption.description">
+				<source>imageCaption</source>
+			</trans-unit>
+			<trans-unit id="bottom_image.description">
+				<source>bottomImage</source>
+			</trans-unit>
+			<trans-unit id="education.description">
+				<source>education</source>
+			</trans-unit>
+			<trans-unit id="background.description">
+				<source>background</source>
+			</trans-unit>
+			<trans-unit id="fashion_designer.description">
+				<source>fashionDesigner</source>
+			</trans-unit>
+			<trans-unit id="perfume.description">
+				<source>perfume</source>
+			</trans-unit>
+			<trans-unit id="interests.description">
+				<source>interests</source>
+			</trans-unit>
+			<trans-unit id="lingerie_designer.description">
+				<source>lingerieDesigner</source>
+			</trans-unit>
+			<trans-unit id="flowers.description">
+				<source>flowers</source>
+			</trans-unit>
+			<trans-unit id="favorite_travel.description">
+				<source>favoriteTravel</source>
+			</trans-unit>
+			<trans-unit id="sports_interests.description">
+				<source>sportsInterests</source>
+			</trans-unit>
+			<trans-unit id="cuisine.description">
+				<source>cuisine</source>
+			</trans-unit>
+			<trans-unit id="jewelry.description">
+				<source>jewelry</source>
+			</trans-unit>
+			<trans-unit id="dream_travel.description">
+				<source>dreamTravel</source>
+			</trans-unit>
+			<trans-unit id="clothing_style.description">
+				<source>clothingStyle</source>
+			</trans-unit>
+			<trans-unit id="drinks.description">
+				<source>drinks</source>
+			</trans-unit>
+			<trans-unit id="height.description">
+				<source>height</source>
+			</trans-unit>
+			<trans-unit id="weight.description">
+				<source>weight</source>
+			</trans-unit>
+			<trans-unit id="residence.description">
+				<source>residence</source>
+			</trans-unit>
+			<trans-unit id="nationality.description">
+				<source>nationality</source>
+			</trans-unit>
+			<trans-unit id="travel.description">
+				<source>travel</source>
+			</trans-unit>
+			<trans-unit id="size.description">
+				<source>size</source>
+			</trans-unit>
+			<trans-unit id="hair_color.description">
+				<source>hairColor</source>
+			</trans-unit>
+			<trans-unit id="measurements.description">
+				<source>measurements</source>
+			</trans-unit>
+			<trans-unit id="eye_color.description">
+				<source>eyeColor</source>
+			</trans-unit>
+			<trans-unit id="bra_size.description">
+				<source>braSize</source>
+			</trans-unit>
+			<trans-unit id="shoe_size.description">
+				<source>shoeSize</source>
+			</trans-unit>
+			<trans-unit id="age.description">
+				<source>age</source>
+			</trans-unit>
+			<trans-unit id="tatoos.description">
+				<source>tatoos</source>
+			</trans-unit>
+			<trans-unit id="piercing.description">
+				<source>piercing</source>
+			</trans-unit>
+			<trans-unit id="smoking.description">
+				<source>smoking</source>
+			</trans-unit>
+			<trans-unit id="language.description">
+				<source>language</source>
+			</trans-unit>
+			<trans-unit id="rate.description">
+				<source>rate</source>
+			</trans-unit>
+			<trans-unit id="col.description">
+				<source>col</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

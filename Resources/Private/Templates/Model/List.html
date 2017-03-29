@@ -1,0 +1,43 @@
+<f:layout name="Default" />
+<f:section name="main">
+
+ 	<!-- <f:for each="{travels}" as="travel" key="number" iteration="itemIteration">
+		{travel.title}
+	</f:for> --> 
+
+ <div class="_row model-list">
+    <f:for each="{models}" as="model" iteration="iterator">
+    
+    	<f:if condition="{model.hideNoAuth}">
+    		<f:then>
+    		
+    		</f:then>
+    		<f:else>
+    		
+    		</f:else>
+    	</f:if>
+    
+				<f:render partial="Model/List" arguments="{_all}" />
+        <f:if condition="{iterator.cycle} % 4">
+            <f:then>
+            </f:then>
+            <f:else>
+                <f:if condition="{iterator.isLast}">
+                    <f:then>
+                    </f:then>
+                    <f:else>
+                        <!-- close row -->
+                        </div>
+                        <!-- open new row -->
+                        <div class="_row model-list">
+                    </f:else>
+                </f:if>
+            </f:else>
+        </f:if>
+    </f:for>
+    <!-- close last open row -->
+ </div>
+ <div class="clear"></div>
+
+
+</f:section>

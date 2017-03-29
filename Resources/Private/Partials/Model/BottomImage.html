@@ -1,0 +1,46 @@
+<f:if condition="{model.bottomImage}">
+	<f:then>
+		<section class="banner bw parallax-section cover-image" 
+			style="background-image: url('{model.bottomImage.originalResource.publicUrl}');"	
+			data-speed="20" data-type="background"> 
+			
+			<div class="model-detail__parallax">
+				<div class="model-detail__parallax-title"> 
+					<div class="container"> 
+						{f:translate(key: 'booking_title')}
+					</div>
+				</div>	
+				<div class="model-detail__parallax-caption">
+					<div class="container"> 
+						{f:translate(key: 'booking_caption1')} {model.name} {model.lastName} {f:translate(key: 'booking_caption2')} 
+					</div>
+					<div class="transparent-button booking-button">
+						<f:link.page pageUid="14">{f:translate(key: 'book')} {model.name}</f:link.page>
+					</div>
+				</div>
+			</div>
+		</section>	
+	</f:then>
+	<f:else>
+		<section class="banner bw parallax-section cover-image" 
+			style="background-image: url('fileadmin/assets/girl-section3.jpg')"	
+			data-speed="20" data-type="background"> 
+			
+			<div class="model-detail__parallax">
+				<div class="model-detail__parallax-title"> 
+					<div class="container"> 
+						{f:translate(key: 'booking_title')}
+					</div>
+				</div>	
+				<div class="model-detail__parallax-caption">
+					<div class="container"> 
+						{f:translate(key: 'booking_caption1')} {model.name} {model.lastName} {f:translate(key: 'booking_caption2')} 
+					</div>
+					<div class="transparent-button booking-button">
+						<f:link.page pageUid="14">{f:translate(key: 'book')} {model.name}</f:link.page>
+					</div>
+				</div>
+			</div>
+		</section>	
+	</f:else>
+</f:if> 	

@@ -1,0 +1,40 @@
+<f:if condition="{model.topImage}">
+  <f:then>
+
+	<section class="bw banner banner-responsive top-image cover-image" 
+	style="background-image: url('{model.topImage.originalResource.publicUrl}');" 
+	data-speed="10" data-type="background"> 
+		<div class="container top-image"> 
+			<div class="top-image__title">
+				{model.name} {model.lastName}
+			</div>
+			<div class="top-image__caption">
+				<f:format.raw><f:format.nl2br><span class="white-text">{model.imageCaption}</span></f:format.nl2br></f:format.raw>
+			</div>
+		</div>
+	</section>
+	<div class="banner-bottom1"></div>
+	<div class="banner-bottom2"></div>	
+
+  </f:then>
+  <f:else>
+
+<!-- Banner -->
+<section class="bw banner banner-responsive cover-image" style="background-image: url('<f:cObject typoscriptObjectPath="lib.topImage" />')" 
+	data-speed="10" data-type="background">
+
+		<div class="container top-image"> 
+			<div class="top-image__title">
+				{model.name} {model.lastName}
+			</div>
+			<div class="top-image__caption">
+				<f:format.raw><f:format.nl2br><span class="white-text">{model.imageCaption}</span></f:format.nl2br></f:format.raw>
+			</div>
+		</div>
+
+</section>
+<div class="banner-bottom1"></div>
+<div class="banner-bottom2"></div>
+
+  </f:else>
+</f:if>
