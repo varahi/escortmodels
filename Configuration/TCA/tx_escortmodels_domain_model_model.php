@@ -230,56 +230,7 @@ return array(
 					)
 				)
 			),
-		),
-		/*	
-		'image' => array(
-			'exclude' => 1,
-			'label' => 'LLL:EXT:escortmodels/Resources/Private/Language/locallang_db.xlf:tx_escortmodels_domain_model_model.image',
-			'config' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::getFileFieldTCAConfig(
-				'image',
-				array(
-					'appearance' => array(
-						'createNewRelationLinkTitle' => 'LLL:EXT:cms/locallang_ttc.xlf:images.addFileReference'
-					),
-					'foreign_types' => array(
-						'0' => array(
-							'showitem' => '
-							--palette--;LLL:EXT:lang/locallang_tca.xlf:sys_file_reference.imageoverlayPalette;imageoverlayPalette,
-							--palette--;;filePalette'
-						),
-						\TYPO3\CMS\Core\Resource\File::FILETYPE_TEXT => array(
-							'showitem' => '
-							--palette--;LLL:EXT:lang/locallang_tca.xlf:sys_file_reference.imageoverlayPalette;imageoverlayPalette,
-							--palette--;;filePalette'
-						),
-						\TYPO3\CMS\Core\Resource\File::FILETYPE_IMAGE => array(
-							'showitem' => '
-							--palette--;LLL:EXT:lang/locallang_tca.xlf:sys_file_reference.imageoverlayPalette;imageoverlayPalette,
-							--palette--;;filePalette'
-						),
-						\TYPO3\CMS\Core\Resource\File::FILETYPE_AUDIO => array(
-							'showitem' => '
-							--palette--;LLL:EXT:lang/locallang_tca.xlf:sys_file_reference.imageoverlayPalette;imageoverlayPalette,
-							--palette--;;filePalette'
-						),
-						\TYPO3\CMS\Core\Resource\File::FILETYPE_VIDEO => array(
-							'showitem' => '
-							--palette--;LLL:EXT:lang/locallang_tca.xlf:sys_file_reference.imageoverlayPalette;imageoverlayPalette,
-							--palette--;;filePalette'
-						),
-						\TYPO3\CMS\Core\Resource\File::FILETYPE_APPLICATION => array(
-							'showitem' => '
-							--palette--;LLL:EXT:lang/locallang_tca.xlf:sys_file_reference.imageoverlayPalette;imageoverlayPalette,
-							--palette--;;filePalette'
-						)
-					),
-					'maxitems' => 999
-				),
-				$GLOBALS['TYPO3_CONF_VARS']['GFX']['imagefile_ext']
-			),
-		),
-		*/
-			
+		),			
 			
 			'image' => array(
 					'exclude' => 1,
@@ -704,19 +655,6 @@ return array(
 				'maxitems' => 1,
 			),
 		),
-		/*	
-		'travel' => array(
-			'exclude' => 1,
-			'label' => 'LLL:EXT:escortmodels/Resources/Private/Language/locallang_db.xlf:tx_escortmodels_domain_model_model.travel',
-			'config' => array(
-				'type' => 'select',
-				'renderType' => 'selectSingle',
-				'foreign_table' => 'tx_escortmodels_domain_model_travel',
-				'minitems' => 0,
-				'maxitems' => 1,
-			),
-		),
-		*/
 			
 			'travel' => array(
 					'exclude' => 1,
@@ -794,20 +732,7 @@ return array(
 				'eval' => 'trim'
 			),
 		),			
-		/*	
-		'measurements' => array(
-			'exclude' => 1,
-			'label' => 'LLL:EXT:escortmodels/Resources/Private/Language/locallang_db.xlf:tx_escortmodels_domain_model_model.measurements',
-			'config' => array(
-				'type' => 'select',
-				'renderType' => 'selectSingle',
-				'foreign_table' => 'tx_escortmodels_domain_model_measurements',
-				'foreign_table_where' => ' AND (tx_escortmodels_domain_model_measurements.sys_language_uid = 0 OR tx_escortmodels_domain_model_measurements.l10n_parent = 0) ORDER BY tx_escortmodels_domain_model_measurements.sorting',					
-				'minitems' => 0,
-				'maxitems' => 1,
-			),
-		),
-		*/
+
 		'eye_color' => array(
 			'exclude' => 1,
 			'label' => 'LLL:EXT:escortmodels/Resources/Private/Language/locallang_db.xlf:tx_escortmodels_domain_model_model.eye_color',
@@ -820,19 +745,7 @@ return array(
 				'maxitems' => 1,
 			),
 		),
-		/*	
-		'bra_size' => array(
-			'exclude' => 1,
-			'label' => 'LLL:EXT:escortmodels/Resources/Private/Language/locallang_db.xlf:tx_escortmodels_domain_model_model.bra_size',
-			'config' => array(
-				'type' => 'select',
-				'renderType' => 'selectSingle',
-				'foreign_table' => 'tx_escortmodels_domain_model_brasize',
-				'minitems' => 0,
-				'maxitems' => 1,
-			),
-		),
-		*/	
+	
 		'bra_size' => array(
 			'exclude' => 1,
 			'label' => 'LLL:EXT:escortmodels/Resources/Private/Language/locallang_db.xlf:tx_escortmodels_domain_model_model.bra_size',
@@ -889,17 +802,7 @@ return array(
 				'maxitems' => 1,
 			),
 		),
-		/*	
-		'smoking' => array(
-			'exclude' => 1,
-			'label' => 'LLL:EXT:escortmodels/Resources/Private/Language/locallang_db.xlf:tx_escortmodels_domain_model_model.smoking',
-			'config' => array(
-				'type' => 'input',
-				'size' => 30,
-				'eval' => 'trim'
-			),
-		),
-		*/				
+				
 		'smoking' => array(
 			'exclude' => 1,
 			'label' => 'LLL:EXT:escortmodels/Resources/Private/Language/locallang_db.xlf:tx_escortmodels_domain_model_model.smoking',
